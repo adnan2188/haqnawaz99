@@ -146,7 +146,6 @@
     text-align: center;
   }
   p {
-    text-align: justify;
     margin-top: 10px;
     font-size: 14px;
   }
@@ -203,12 +202,12 @@
 
 @media screen and (max-width: 576px) {
   .project_container {
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
   }
 
   .project_img {
     width: 100%;
-    height: 190px;
+    height: 170px;
   }
 }
 

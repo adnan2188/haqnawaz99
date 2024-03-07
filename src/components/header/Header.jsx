@@ -70,7 +70,7 @@ const Header = () => {
                   }
                 >
                   <i className="uil uil-briefcase-alt nav_icon"></i>
-                  Researchs
+                  Researches
                 </a>
               </li>
               <li className="nav_item">

@@ -1,4 +1,4 @@
-import clock from "../../assets/clock.png";
+import mohaddis from "../../assets/mohaddis.png";
 import qurnaSarfNahawUr from "../../assets/qurnaSarfNahawUr.png";
 import isdp from "../../assets/isdp.png";
 import tanzeemdigitallibrary from "../../assets/tanzeemdigitallibrary.png";
@@ -19,8 +19,8 @@ export const projectsData = [
     id: 1,
     image: isdp,
     title: "Intensive Software Development Program (ISDP)",
-    category: "web",
-    desc: " A course designed for Madrasah graduates a one-year course in which they are taught computer science subjects like programming fundamentals, Web designing and Android development. Madaris graduates after completing this course are now working in different software houses Success stories can be seen at following link.",
+    category: "desktop",
+    desc: " A course designed for Madrasah graduates a one-year course in which they are taught computer science subjects like programming fundamentals, desktop designing and Android development. Madaris graduates after completing this course are now working in different software houses Success stories can be seen at following link.",
     link: " http://www.isdp.info/",
   },
   {
@@ -28,7 +28,7 @@ export const projectsData = [
     image: altasreef,
     title:
       " Algorithm base automated Classical Arabic morphology teaching system (R&D work in personal capacity)",
-    category: "web",
+    category: "desktop",
     desc: "NLP techniques applied on system which generates the Arabic conjugations with the help of rule base approach, algorithm, take root words as input and generates the conjugations with the help of algorithms.",
     link: "https://asltasreef.netlify.app/",
   },
@@ -37,23 +37,23 @@ export const projectsData = [
     image: qurnaSarfNahawUr,
     title:
       "Natural Language Processing techniques applied on Quran Text (R&D work in personal capacity)",
-    category: "web",
+    category: "desktop",
     desc: " Text segmentation, Part-of-Speech Tagging and generation of dataset of Quran text for Indo-Pak Uthmani scripting with marking of 23 attributes per word more than 80,000 words has been marked. Attributes marked in three languages Arabic, English and Urdu total marked attributes more than 5.4 million.",
     link: "https://haqnawaz.org/Ur/QuranSarfNahaw/qm",
   },
   {
     id: 4,
-    image: clock,
+    image: mohaddis,
     title: "Hadith Encyclopedia with Urdu translations",
-    category: "web",
+    category: "desktop",
     desc: " Largest Urdu online encyclopedia of Hadith text provide facilities to user to navigate by books, chapters and Hadith number, it also contains different international numbering systems of Hadith. Apart from string search there are different marked searches implemented in project to facilitate user in searching of Hadith.",
-    link: "https://www.mohaddis.com/View/Sahi-Bukhari/T2/1",
+    link: "https://mohaddis.com/View/Sahi-Bukhari/T2/1",
   },
   {
     id: 5,
     image: easyquranwahadees,
     title: "Easy Quran wa Hadees",
-    category: "web",
+    category: "desktop",
     desc: "First and largest Unicode desktop application of Quran and Hadith which contains different Quran translations and Tafaseer and in different languages It also contians Hadith data with translations",
     link: "http://www.easyquranwahadees.com/",
   },
@@ -61,7 +61,7 @@ export const projectsData = [
     id: 6,
     image: tanzeemdigitallibrary,
     title: "Content Digitization of Tanzeem Islami",
-    category: "web",
+    category: "desktop",
     desc: "First and largest Unicode desktop application of Quran and Hadith which contains different Quran translations and Tafaseer and in different languages It also contians Hadith data with translations",
     link: "https://tanzeemdigitallibrary.com/",
   },
@@ -118,7 +118,7 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "desktop",
   },
   {
     name: "android",
