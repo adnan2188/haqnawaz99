@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
-import PortfolioItems from "./ProjectsItems";
+import ProjectsItems from "./ProjectsItems";
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
@@ -43,7 +43,7 @@ const Projects = () => {
         {projects.map((item) => {
           return (
             <div key={item.id}>
-              <PortfolioItems item={item} />
+              <ProjectsItems item={item} />
             </div>
           );
         })}

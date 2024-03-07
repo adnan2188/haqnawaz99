@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 
-const PortfolioItems = ({ item }) => {
+const ProjectsItems = ({ item }) => {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -49,7 +49,7 @@ const PortfolioItems = ({ item }) => {
 
             <div className="modal_div-main">
               <div className="modal_div-img">
-                {item.category === "web" ? (
+                {item.category === "desktop" ? (
                   <img src={item.image} alt="" />
                 ) : (
                   <img src={item.image2} alt="" />
@@ -67,4 +67,4 @@ const PortfolioItems = ({ item }) => {
   );
 };
 
-export default PortfolioItems;
+export default ProjectsItems;

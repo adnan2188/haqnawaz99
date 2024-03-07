@@ -106,4 +106,8 @@ font-size: 18px;
         padding: 30px 0px;
         border-bottom: 1px solid black;
     }
+    .contact-info li {
+    font-size: 15px;
+       
+    }
 }
