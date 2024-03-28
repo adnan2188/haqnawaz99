@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import "./Home.css";
+import "./Hero.css";
 const Social = () => {
   return (
     <div className="home_social">
